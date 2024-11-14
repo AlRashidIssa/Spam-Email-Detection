@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Email Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .spam {
+            background-color: #ffcccc;
+            color: #cc0000;
+        }
+        .ham {
+            background-color: #ccffcc;
+            color: #006600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Spam Email Detection</h1>
+        <form method="post" action="/predict">
+            <div class="form-group">
+                <label for="text">Enter Email Text:</label>
+                <textarea id="text" name="text" rows="6" placeholder="Type your email here..." required></textarea>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+        {% if result %}
+        <div class="result {% if result == 'Spam' %}spam{% else %}ham{% endif %}">
+            <h3>Prediction: {{ result }}</h3>
+            <p>Confidence: {{ confidence }}%</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
