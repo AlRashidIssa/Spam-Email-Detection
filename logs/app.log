@@ -65,7 +65,6 @@
 2024-11-14 15:35:48,612 - app_logger - INFO - Successfully initialized SpamClassifierModel
 2024-11-14 15:35:48,612 - app_logger - INFO - Model initialized successfully.
 2024-11-14 15:35:48,612 - app_logger - INFO - Loading model weights...
-2024-11-14 15:35:48,616 - app_logger - INFO - Model weights loaded successfully.
 2024-11-14 15:35:48,617 - app_logger - INFO - Model loaded successfully.
 2024-11-14 15:35:50,350 - app_logger - INFO - Test for logg funcation!!
 2024-11-14 15:35:51,294 - app_logger - INFO - Loading vocabulary...
