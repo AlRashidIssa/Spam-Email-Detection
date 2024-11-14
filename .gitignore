@@ -4,3 +4,4 @@ Your local changes to .gitignore
 =======
 The changes from the remote branch to .gitignore
 >>>>>>> origin/main
+models/glove.6B.100d.txt
