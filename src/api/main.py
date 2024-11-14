@@ -102,4 +102,5 @@ async def predict_spam(request: Request, text: str = Form(...)):
     except Exception as e:
         app_logger.error(f"Unexpected error: {e}")
         raise HTTPException(status_code=500, detail="An unexpected error occurred.")
+# Finsh Work. 14-Nov-2024-20:20
 
