@@ -154,3 +154,4 @@ if __name__ == "__main__":
     except Exception as e:
         app_logger.error(f"An unexpected error occurred in the main pipeline: {e}")
         print(f"An error occurred: {e}")
+# Finsh Work. 14-Nov-2024-20:20
