@@ -1,3 +1,3 @@
 env
 __pycache__
-/workspaces/Spam-Email-Detection/models/glove.6B.100d.txt
+models/glove.6B.100d.txt
