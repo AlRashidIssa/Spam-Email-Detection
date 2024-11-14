@@ -216,7 +216,6 @@
 2024-11-14 16:00:29,163 - app_logger - INFO - Prediction: Non-Spam, Confidence: 0.73
 2024-11-14 16:00:31,516 - app_logger - INFO - Received text for prediction.
 2024-11-14 16:00:31,516 - app_logger - INFO - Cleaning and preprocessing input text.
-2024-11-14 16:00:31,517 - app_logger - INFO - Clearing Text!
 2024-11-14 16:00:31,517 - app_logger - INFO - Running model prediction.
 2024-11-14 16:00:31,518 - app_logger - INFO - Starting prediction process.
 2024-11-14 16:00:31,531 - app_logger - INFO - Prediction: Non-Spam, Confidence: 0.73
