@@ -92,3 +92,5 @@ if __name__ == "__main__":
     clearn_text = iclearn.clean(text="@@333Hello worlds .///#4 def call inging.. !!! I Love Salah and Naseerasdfghjkl",
                                 vocab=vocab)
     print("Clearning Text", clearn_text)
+
+# Finsh Work. 14-Nov-2024-20:20
