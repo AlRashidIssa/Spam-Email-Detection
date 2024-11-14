@@ -220,3 +220,56 @@
 2024-11-14 16:00:31,518 - app_logger - INFO - Starting prediction process.
 2024-11-14 16:00:31,531 - app_logger - INFO - Prediction: Non-Spam, Confidence: 0.73
 2024-11-14 16:00:31,531 - app_logger - INFO - Prediction: Non-Spam, Confidence: 0.73
+2024-11-14 17:29:00,194 - app_logger - INFO - Test for logg funcation!!
+2024-11-14 17:29:01,100 - app_logger - INFO - Loading vocabulary...
+2024-11-14 17:29:01,103 - app_logger - INFO - Successfully loaded tokenizer from /workspaces/Spam-Email-Detection/models/vocab.json
+2024-11-14 17:29:01,103 - app_logger - INFO - Vocabulary loaded successfully.
+2024-11-14 17:29:01,103 - app_logger - INFO - Loading model...
+2024-11-14 17:29:01,103 - app_logger - INFO - Validated file paths successfully.
+2024-11-14 17:29:01,103 - app_logger - INFO - Loading GloVe embeddings...
+2024-11-14 17:29:07,668 - app_logger - INFO - Loaded 9321/10000 words from GloVe embeddings.
+2024-11-14 17:29:07,670 - app_logger - INFO - GloVe embeddings loaded successfully.
+2024-11-14 17:29:07,670 - app_logger - INFO - Initializing the model...
+2024-11-14 17:29:07,672 - app_logger - INFO - Successfully initialized SpamClassifierModel
+2024-11-14 17:29:07,672 - app_logger - INFO - Model initialized successfully.
+2024-11-14 17:29:07,672 - app_logger - INFO - Loading model weights...
+2024-11-14 17:29:07,676 - app_logger - INFO - Model weights loaded successfully.
+2024-11-14 17:29:07,677 - app_logger - INFO - Model loaded successfully.
+2024-11-14 17:29:55,540 - app_logger - INFO - Test for logg funcation!!
+2024-11-14 17:29:56,487 - app_logger - INFO - Loading vocabulary...
+2024-11-14 17:29:56,490 - app_logger - INFO - Successfully loaded tokenizer from /workspaces/Spam-Email-Detection/models/vocab.json
+2024-11-14 17:29:56,490 - app_logger - INFO - Vocabulary loaded successfully.
+2024-11-14 17:29:56,490 - app_logger - INFO - Loading model...
+2024-11-14 17:29:56,490 - app_logger - INFO - Validated file paths successfully.
+2024-11-14 17:29:56,491 - app_logger - INFO - Loading GloVe embeddings...
+2024-11-14 17:30:02,900 - app_logger - INFO - Loaded 9321/10000 words from GloVe embeddings.
+2024-11-14 17:30:02,902 - app_logger - INFO - GloVe embeddings loaded successfully.
+2024-11-14 17:30:02,902 - app_logger - INFO - Initializing the model...
+2024-11-14 17:30:02,904 - app_logger - INFO - Successfully initialized SpamClassifierModel
+2024-11-14 17:30:02,904 - app_logger - INFO - Model initialized successfully.
+2024-11-14 17:30:02,904 - app_logger - INFO - Loading model weights...
+2024-11-14 17:30:02,908 - app_logger - INFO - Model weights loaded successfully.
+2024-11-14 17:30:02,909 - app_logger - INFO - Model loaded successfully.
+2024-11-14 17:31:02,056 - app_logger - INFO - Test for logg funcation!!
+2024-11-14 17:31:03,047 - app_logger - INFO - Loading vocabulary...
+2024-11-14 17:31:03,050 - app_logger - INFO - Successfully loaded tokenizer from /workspaces/Spam-Email-Detection/models/vocab.json
+2024-11-14 17:31:03,050 - app_logger - INFO - Vocabulary loaded successfully.
+2024-11-14 17:31:03,050 - app_logger - INFO - Loading model...
+2024-11-14 17:31:03,050 - app_logger - INFO - Validated file paths successfully.
+2024-11-14 17:31:03,050 - app_logger - INFO - Loading GloVe embeddings...
+2024-11-14 17:31:09,506 - app_logger - INFO - Loaded 9321/10000 words from GloVe embeddings.
+2024-11-14 17:31:09,508 - app_logger - INFO - GloVe embeddings loaded successfully.
+2024-11-14 17:31:09,508 - app_logger - INFO - Initializing the model...
+2024-11-14 17:31:09,510 - app_logger - INFO - Successfully initialized SpamClassifierModel
+2024-11-14 17:31:09,511 - app_logger - INFO - Model initialized successfully.
+2024-11-14 17:31:09,511 - app_logger - INFO - Loading model weights...
+2024-11-14 17:31:09,515 - app_logger - INFO - Model weights loaded successfully.
+2024-11-14 17:31:09,515 - app_logger - INFO - Model loaded successfully.
+2024-11-14 17:31:19,425 - app_logger - INFO - Rendering HTML form.
+2024-11-14 17:31:34,741 - app_logger - INFO - Received text for prediction.
+2024-11-14 17:31:34,742 - app_logger - INFO - Cleaning and preprocessing input text.
+2024-11-14 17:31:34,743 - app_logger - INFO - Clearing Text!
+2024-11-14 17:31:34,743 - app_logger - INFO - Running model prediction.
+2024-11-14 17:31:34,743 - app_logger - INFO - Starting prediction process.
+2024-11-14 17:31:34,765 - app_logger - INFO - Prediction: Spam, Confidence: 0.73
+2024-11-14 17:31:34,766 - app_logger - INFO - Prediction: Spam, Confidence: 0.73
