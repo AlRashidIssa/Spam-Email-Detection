@@ -144,3 +144,5 @@ if __name__ == "__main__":
         print(f"Embeddings shape: {embeddings.shape}")
     except Exception as e:
         print(f"An error occurred: {e}")
+
+# Finsh Work. 14-Nov-2024-20:20
